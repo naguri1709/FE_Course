@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-table, th, td {
+/* bài 1 */
+.bai1 table, .bai1 th, .bai1 td {
     width: 50%;
     height: 2rem;
     border: 2px solid;

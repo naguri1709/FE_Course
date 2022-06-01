@@ -1,0 +1,61 @@
+/* bài 2 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bai2 {
+    padding-left: 5rem;
+}
+
+table, td, th {
+    width: 60%;
+
+}
+
+.bai2 .header th {
+    height: 15rem;
+    font-size: 5rem;
+    background: gray;
+    color: white;
+    font-weight: 800;
+}
+
+.body {
+    height: 18rem;
+}
+
+.body .option {
+    width: 25%;
+    background: darkgray;
+}
+
+.body .option ul {
+    list-style-type: none;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
+}
+
+.body .info {
+    background-color: gainsboro;
+    padding-bottom: 3.5rem;
+}
+
+.body .info h1 {
+    padding: 0 1rem;
+    padding-bottom: .8rem;
+    font-size: 3rem;
+}
+
+.body .info p {
+    padding: .2rem 1rem;
+}
+
+.footer {
+    background: gray;
+    height: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
