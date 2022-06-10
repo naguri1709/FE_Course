@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    margin: auto;
+    padding: 2rem 3rem;
+    background-color: antiquewhite;
+    width: 50%;
+}
+
+.login {
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    width: 375px;
+}
+
+.address {
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.address-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-input {
+    margin: .5rem 0;
+}
+
+.location {
+    margin-bottom: .5rem;
+    display: flex;
+}
+
+.location-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.location-item span {
+    margin-bottom: .5rem;
+}
+
+.location-item select {
+    margin: 0 .5rem;
+    height: 110%;
+}
+
+.city {
+    width: 375px;
+}
+
+.state {
+    width: 250px;
+}
+
+.zip {
+    width: 115px;
+}
+
+.btn {
+    margin-left: -.5rem;
+}
