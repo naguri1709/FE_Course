@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #333333;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5rem;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0.8rem;
+}
+
+.navbar li:hover {
+    background-color: #04AA6D;
+}
+
+/* p2 */
+
+.subnav-container {
+    width: 60%;
+    height: 30rem;
+    margin: auto;
+    border-left: 1px solid;
+}
+
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a3d51;
+}
+
+.body-container h1 {
+    color: #fff;
+    padding-left: 3rem;
+}
+
+.body-container ul {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.body-container ul li {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.body-container ul li:hover {
+    background-color: #19232f;
+}
+
+.body-container li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1.2rem;
+    font-weight: 700;
+}
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.container-icon i {
+    color: #2a3d51;
+}
+
+.container-title h1 {
+    color: #2a3d51;
+    text-align: center;
+}
+
+.line {
+    width: 70px;
+    height: 3px;
+    background-color: #2A3D51;
+    margin: 3px 5px;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.container-info {
+    width: 60%;
+    margin: auto;
+}
+
+.container-info .info {
+    border-top: 1px solid;
+    padding: .5rem 0;
+}
+
+input[type=text] {
+    padding: .8rem;
+}
+
+.container-info .info input::placeholder {
+    font-size: 18px;
+    color: #2a3d51;
+}
