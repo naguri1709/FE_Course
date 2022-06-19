@@ -12,7 +12,7 @@ let resultTeam2 = avgScore(scoreTeam2);
 console.log(resultTeam1);
 console.log(resultTeam2);
 
-if (resultTeam1 >= 100 && resultTeam2 >= 100) {
+if (resultTeam1 >= 100 || resultTeam2 >= 100) {
   if (resultTeam1 == resultTeam2) {
     console.log("Hai đội hòa!");
   } else {
