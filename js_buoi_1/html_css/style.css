@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    text-decoration: none !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header section */
+
+.header-section {
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    position: relative;
+    height: 50px;
+}
+
+.header-section p {
+    margin-left: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+}
+
+.header-section button {
+    font-size: .8rem;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+}
+
+/* body section */
+
+.body-section {
+    height: 400px;
+    background: url(./images/bg-masthead.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body-section p {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 600px;
+    text-align: center;
+}
+
+.body-section .body-input {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.body-section .body-input input {
+    width: 300px;
+    border-radius: 2px;
+    padding: 5px 5px;
+    margin-right: 5px;
+}
