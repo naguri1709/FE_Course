@@ -7,10 +7,16 @@ const reverseWord = (str) => {
     newStr += splitStr[splitStr.length - 1 - i] + " ";
   }
   return newStr;
+  //   return str.split(" ").reverse().join("");
 };
 
 const reverseChar = (str) => {
-  return str.split("").reverse().join("");
+  let newStr = "";
+  const splitStr = str.split("");
+  for (let i = 0; i < splitStr.length; i++) {
+    newStr += splitStr[splitStr.length - 1 - i].split("").reverse();
+  }
+  return newStr;
 };
 
 console.log(reverseWord(str));
