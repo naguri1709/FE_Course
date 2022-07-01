@@ -17,7 +17,15 @@ const countFrequency = (arr) => {
   return result;
 };
 
+const countFrequencyNew = (arr) => {
+  const result = arr.reduce((acc, curr) => {
+    return acc[curr] ? ++acc[curr] : (acc[curr] = 1), acc;
+  }, {});
+  return result;
+};
+
 console.log(countFrequency(arr));
+console.log(countFrequencyNew(arr));
 
 // const sum = (arr) =>{
 //     arr.reduce((total, current)=>{
